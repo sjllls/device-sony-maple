@@ -27,10 +27,6 @@ PRODUCT_COPY_FILES := \
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf
 
-# Thermal Configuration
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/vendor/etc/thermanager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/thermanager.xml
-
 # Camera Configuration
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
